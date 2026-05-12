@@ -1,0 +1,25 @@
+50 epochs completed in 0.212 hours.
+Optimizer stripped from runs\detect\train20\weights\last.pt, 5.4MB
+Optimizer stripped from runs\detect\train20\weights\best.pt, 5.4MB
+
+Validating runs\detect\train20\weights\best.pt...
+Ultralytics 8.3.136  Python-3.12.3 torch-2.6.0+cu126 CUDA:0 
+YOLO11n summary (fused): 100 layers, 2,584,882 parameters, 0 gradients, 6.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 7/7 [00:01<00:00,  4.96it/s]
+                   all        224       1756      0.964      0.952      0.982      0.914
+                     0         84        106      0.928      0.745      0.912      0.882
+                     1         91        121       0.82      0.851      0.929      0.895
+                    10        114        139      0.983      0.957      0.991      0.917
+                    11         93        128      0.983      0.992      0.993      0.883
+                    12        104        133      0.985      0.972      0.991      0.946
+                    13        113        153          1      0.962      0.995       0.93
+                     2         87        110      0.991          1      0.994      0.915
+                     3         99        136      0.983      0.985      0.995       0.88
+                     4         78         99      0.978       0.96      0.991      0.943
+                     5        100        130      0.999          1      0.995       0.94
+                     6         94        120      0.983      0.978      0.989      0.847
+                     7        101        130      0.912      0.957      0.982      0.944
+                     8         98        137      0.993      0.969      0.993      0.915
+                     9         95        114      0.956          1       0.99      0.965
+Speed: 0.1ms preprocess, 0.7ms inference, 0.0ms loss, 1.9ms postprocess per image
+Results saved to runs\detect\train20

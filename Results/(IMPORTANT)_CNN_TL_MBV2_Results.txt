@@ -1,0 +1,149 @@
+runfile('C:/Users/Jasmi/Desktop/new testing code/untitled9.py', wdir='C:/Users/Jasmi/Desktop/new testing code')
+Found 36800 images belonging to 23 classes.
+Found 9200 images belonging to 23 classes.
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/mobilenet_v2/mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_96_no_top.h5
+9406464/9406464 ━━━━━━━━━━━━━━━━━━━━ 1s 0us/step 
+Epoch 1/50
+C:\Users\Jasmi\anaconda3\Lib\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 453s 373ms/step - accuracy: 0.0727 - loss: 3.5205 - val_accuracy: 0.1700 - val_loss: 2.8728 - learning_rate: 1.0000e-05
+Epoch 2/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 412s 358ms/step - accuracy: 0.2575 - loss: 2.4755 - val_accuracy: 0.4026 - val_loss: 1.9152 - learning_rate: 1.0000e-05
+Epoch 3/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 377s 328ms/step - accuracy: 0.4050 - loss: 1.8544 - val_accuracy: 0.5739 - val_loss: 1.2585 - learning_rate: 1.0000e-05
+Epoch 4/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 376s 327ms/step - accuracy: 0.5170 - loss: 1.4550 - val_accuracy: 0.6824 - val_loss: 0.9283 - learning_rate: 1.0000e-05
+Epoch 5/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 376s 327ms/step - accuracy: 0.5939 - loss: 1.2109 - val_accuracy: 0.7332 - val_loss: 0.7681 - learning_rate: 1.0000e-05
+Epoch 6/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 393s 342ms/step - accuracy: 0.6515 - loss: 1.0345 - val_accuracy: 0.7732 - val_loss: 0.6505 - learning_rate: 1.0000e-05
+Epoch 7/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 379s 329ms/step - accuracy: 0.6940 - loss: 0.8964 - val_accuracy: 0.8011 - val_loss: 0.5757 - learning_rate: 1.0000e-05
+Epoch 8/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 384s 334ms/step - accuracy: 0.7220 - loss: 0.8178 - val_accuracy: 0.8161 - val_loss: 0.5136 - learning_rate: 1.0000e-05
+Epoch 9/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 379s 329ms/step - accuracy: 0.7413 - loss: 0.7360 - val_accuracy: 0.8284 - val_loss: 0.4767 - learning_rate: 1.0000e-05
+Epoch 10/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 379s 330ms/step - accuracy: 0.7670 - loss: 0.6741 - val_accuracy: 0.8371 - val_loss: 0.4517 - learning_rate: 1.0000e-05
+Epoch 11/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 382s 332ms/step - accuracy: 0.7745 - loss: 0.6434 - val_accuracy: 0.8518 - val_loss: 0.4191 - learning_rate: 1.0000e-05
+Epoch 12/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 382s 332ms/step - accuracy: 0.7869 - loss: 0.6053 - val_accuracy: 0.8598 - val_loss: 0.3984 - learning_rate: 1.0000e-05
+Epoch 13/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 382s 332ms/step - accuracy: 0.7959 - loss: 0.5848 - val_accuracy: 0.8649 - val_loss: 0.3852 - learning_rate: 1.0000e-05
+Epoch 14/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 380s 330ms/step - accuracy: 0.8044 - loss: 0.5540 - val_accuracy: 0.8688 - val_loss: 0.3680 - learning_rate: 1.0000e-05
+Epoch 15/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 381s 332ms/step - accuracy: 0.8184 - loss: 0.5209 - val_accuracy: 0.8773 - val_loss: 0.3590 - learning_rate: 1.0000e-05
+Epoch 16/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 383s 333ms/step - accuracy: 0.8259 - loss: 0.4960 - val_accuracy: 0.8770 - val_loss: 0.3438 - learning_rate: 1.0000e-05
+Epoch 17/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 390s 339ms/step - accuracy: 0.8325 - loss: 0.4742 - val_accuracy: 0.8847 - val_loss: 0.3230 - learning_rate: 1.0000e-05
+Epoch 18/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 385s 335ms/step - accuracy: 0.8403 - loss: 0.4492 - val_accuracy: 0.8901 - val_loss: 0.3129 - learning_rate: 1.0000e-05
+Epoch 19/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 385s 335ms/step - accuracy: 0.8431 - loss: 0.4404 - val_accuracy: 0.8900 - val_loss: 0.3037 - learning_rate: 1.0000e-05
+Epoch 20/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 383s 333ms/step - accuracy: 0.8474 - loss: 0.4297 - val_accuracy: 0.8896 - val_loss: 0.2996 - learning_rate: 1.0000e-05
+Epoch 21/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 384s 334ms/step - accuracy: 0.8587 - loss: 0.3957 - val_accuracy: 0.8941 - val_loss: 0.2915 - learning_rate: 1.0000e-05
+Epoch 22/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 392s 341ms/step - accuracy: 0.8619 - loss: 0.3860 - val_accuracy: 0.9001 - val_loss: 0.2804 - learning_rate: 1.0000e-05
+Epoch 23/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 385s 335ms/step - accuracy: 0.8666 - loss: 0.3687 - val_accuracy: 0.8938 - val_loss: 0.2844 - learning_rate: 1.0000e-05
+Epoch 24/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 383s 333ms/step - accuracy: 0.8717 - loss: 0.3606 - val_accuracy: 0.8970 - val_loss: 0.2744 - learning_rate: 1.0000e-05
+Epoch 25/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 383s 333ms/step - accuracy: 0.8728 - loss: 0.3640 - val_accuracy: 0.8991 - val_loss: 0.2732 - learning_rate: 1.0000e-05
+Epoch 26/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 388s 338ms/step - accuracy: 0.8756 - loss: 0.3468 - val_accuracy: 0.9048 - val_loss: 0.2656 - learning_rate: 1.0000e-05
+Epoch 27/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 397s 345ms/step - accuracy: 0.8783 - loss: 0.3482 - val_accuracy: 0.9008 - val_loss: 0.2640 - learning_rate: 1.0000e-05
+Epoch 28/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 396s 345ms/step - accuracy: 0.8833 - loss: 0.3235 - val_accuracy: 0.9057 - val_loss: 0.2533 - learning_rate: 1.0000e-05
+Epoch 29/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 386s 336ms/step - accuracy: 0.8867 - loss: 0.3160 - val_accuracy: 0.9088 - val_loss: 0.2459 - learning_rate: 1.0000e-05
+Epoch 30/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 389s 338ms/step - accuracy: 0.8865 - loss: 0.3154 - val_accuracy: 0.9107 - val_loss: 0.2433 - learning_rate: 1.0000e-05
+Epoch 31/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 391s 340ms/step - accuracy: 0.8931 - loss: 0.2995 - val_accuracy: 0.9109 - val_loss: 0.2463 - learning_rate: 1.0000e-05
+Epoch 32/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 394s 343ms/step - accuracy: 0.8903 - loss: 0.2969 - val_accuracy: 0.9111 - val_loss: 0.2428 - learning_rate: 1.0000e-05
+Epoch 33/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 414s 360ms/step - accuracy: 0.8965 - loss: 0.2877 - val_accuracy: 0.9136 - val_loss: 0.2383 - learning_rate: 1.0000e-05
+Epoch 34/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 428s 372ms/step - accuracy: 0.8990 - loss: 0.2765 - val_accuracy: 0.9149 - val_loss: 0.2365 - learning_rate: 1.0000e-05
+Epoch 35/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 565s 491ms/step - accuracy: 0.8985 - loss: 0.2794 - val_accuracy: 0.9151 - val_loss: 0.2320 - learning_rate: 1.0000e-05
+Epoch 36/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 604s 525ms/step - accuracy: 0.9051 - loss: 0.2649 - val_accuracy: 0.9165 - val_loss: 0.2318 - learning_rate: 1.0000e-05
+Epoch 37/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 504s 438ms/step - accuracy: 0.9064 - loss: 0.2593 - val_accuracy: 0.9129 - val_loss: 0.2344 - learning_rate: 1.0000e-05
+Epoch 38/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 416s 362ms/step - accuracy: 0.9068 - loss: 0.2570 - val_accuracy: 0.9213 - val_loss: 0.2235 - learning_rate: 1.0000e-05
+Epoch 39/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 425s 369ms/step - accuracy: 0.9121 - loss: 0.2455 - val_accuracy: 0.9191 - val_loss: 0.2220 - learning_rate: 1.0000e-05
+Epoch 40/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 414s 360ms/step - accuracy: 0.9140 - loss: 0.2373 - val_accuracy: 0.9215 - val_loss: 0.2155 - learning_rate: 1.0000e-05
+Epoch 41/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 397s 346ms/step - accuracy: 0.9166 - loss: 0.2315 - val_accuracy: 0.9177 - val_loss: 0.2163 - learning_rate: 1.0000e-05
+Epoch 42/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 396s 344ms/step - accuracy: 0.9154 - loss: 0.2325 - val_accuracy: 0.9202 - val_loss: 0.2211 - learning_rate: 1.0000e-05
+Epoch 43/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 404s 351ms/step - accuracy: 0.9198 - loss: 0.2234 - val_accuracy: 0.9266 - val_loss: 0.2097 - learning_rate: 1.0000e-05
+Epoch 44/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 400s 348ms/step - accuracy: 0.9237 - loss: 0.2184 - val_accuracy: 0.9212 - val_loss: 0.2136 - learning_rate: 1.0000e-05
+Epoch 45/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 400s 348ms/step - accuracy: 0.9208 - loss: 0.2184 - val_accuracy: 0.9229 - val_loss: 0.2163 - learning_rate: 1.0000e-05
+Epoch 46/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 400s 348ms/step - accuracy: 0.9221 - loss: 0.2193 - val_accuracy: 0.9266 - val_loss: 0.2072 - learning_rate: 1.0000e-05
+Epoch 47/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 401s 349ms/step - accuracy: 0.9232 - loss: 0.2082 - val_accuracy: 0.9265 - val_loss: 0.2060 - learning_rate: 1.0000e-05
+Epoch 48/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 402s 350ms/step - accuracy: 0.9247 - loss: 0.2035 - val_accuracy: 0.9255 - val_loss: 0.2048 - learning_rate: 1.0000e-05
+Epoch 49/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 400s 348ms/step - accuracy: 0.9258 - loss: 0.2042 - val_accuracy: 0.9288 - val_loss: 0.1995 - learning_rate: 1.0000e-05
+Epoch 50/50
+1150/1150 ━━━━━━━━━━━━━━━━━━━━ 403s 350ms/step - accuracy: 0.9292 - loss: 0.1984 - val_accuracy: 0.9234 - val_loss: 0.2126 - learning_rate: 1.0000e-05
+
+
+
+
+288/288 ━━━━━━━━━━━━━━━━━━━━ 34s 116ms/step
+Classification Report:
+                                                                          precision    recall  f1-score   support
+
+(11214) Technic Axle Pin 3L with Friction Ridges Lengthwise and 1L Axle       0.98      0.96      0.97       400
+                                                     (15068) 2×2 Curved       0.95      0.94      0.94       400
+                                                     (15573) 1×2 Jumper       0.95      0.97      0.96       400
+                                                      (2445) 2×12 Plate       0.75      0.86      0.80       400
+                                                       (3004) 1×2 Brick       0.94      0.94      0.94       400
+                                                       (3005) 1×1 Brick       0.96      0.98      0.97       400
+                                                       (3008) 1×8 Brick       0.94      0.90      0.92       400
+                                                       (3022) 2×2 Plate       0.99      0.98      0.98       400
+                   (30414) Brick Special 1 x 4 with 4 Studs on One Side       0.95      0.95      0.95       400
+                                         (32062) Technic Axle 2 Notched       0.98      0.98      0.98       400
+                         (32607) Plant, Plate 1 x 1 Round with 3 Leaves       0.99      0.99      0.99       400
+                                                       (3460) 1×8 Plate       0.73      0.68      0.71       400
+                                                       (3623) 1×3 Plate       0.92      0.96      0.94       400
+                                                      (3832) 2×10 Plate       0.83      0.72      0.77       400
+                                         (4032) 2×2 Plate, Round w Axle       0.99      0.98      0.99       400
+                                                  (4286) Slope 33 3 x 1       0.97      0.95      0.96       400
+                                                    (44728) 2×2 Bracket       0.98      0.96      0.97       400
+                                                      (4477) 1×10 Plate       0.71      0.79      0.74       400
+                                 (49668) Plate Special 1 x 1 with Tooth       0.94      0.97      0.96       400
+                                        (60478) 1×2 Plate w Handle, End       0.95      0.95      0.95       400
+                                                       (87079) 2×4 Tile       0.95      0.95      0.95       400
+                                          (92280) 1×2 Plate w Clip, Top       0.96      0.92      0.94       400
+                                                (98138) 1×1 Tile, Round       0.98      0.99      0.99       400
+
+                                                               accuracy                           0.93      9200
+                                                              macro avg       0.93      0.93      0.93      9200
+                                                           weighted avg       0.93      0.93      0.93      9200
+
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+
+2025-05-17 15:59:19.775008: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-17 15:59:20.692779: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-17 15:59:23.439592: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
